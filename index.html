@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3be49a6d55.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="header">Rock Paper Scissors</p>
+    
+    <button class="rockButton" onclick="computerMoveGuess('Rock')"><i class="fa-solid fa-hand-back-fist Rock"></i></button>
+
+    <button class="paperButton" onclick="computerMoveGuess('Paper')"><i class="fa-solid fa-hand Paper"></i></button>
+    
+    <button class="scissorButton" onclick="computerMoveGuess('Scissors')"><i class="fa-solid fa-hand-scissors Scissors"></i></button>
+
+    <p class="matchResult"></p>
+    <p class="matchStatus"></p>
+    <p class="scoreCard"></p>
+
+    <button class="reset" onclick="resetScore()">Reset Score</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
