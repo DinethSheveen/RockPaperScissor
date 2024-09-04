@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+}
+
+.header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Rock,.Paper,.Scissors{
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(230, 179, 50);
+}
+
+.rockButton,.paperButton,.scissorButton{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.reset{
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
